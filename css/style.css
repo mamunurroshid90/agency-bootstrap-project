@@ -38,14 +38,18 @@ a {
 .title p {
   color: var(--dark-03, #737373);
   text-align: center;
-
-  /* Paragraph  */
   font-family: Inter;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 26px; /* 162.5% */
+  line-height: 26px;
 }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
 /* ================================================== */
 
 .navbar {
@@ -90,7 +94,7 @@ a {
 }
 /* ========================================== */
 
-#banner__part {
+.banner__slider {
   background: url("../images/banner.jpg");
   background-position: center;
   background-size: cover;
@@ -100,7 +104,7 @@ a {
   position: relative;
   z-index: 1;
 }
-#banner__part::after {
+.banner__slider::after {
   content: "";
   position: absolute;
   width: 100%;
@@ -110,7 +114,27 @@ a {
   background-color: rgba(0, 0, 0, 0.6);
   z-index: -1;
 }
-#banner__part h1 {
+.banner__slider .slick-dots {
+  position: absolute;
+  bottom: 53px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex !important;
+  column-gap: 20px;
+}
+.banner__slider .slick-dots li button {
+  width: 24px;
+  height: 24px;
+  background-color: #6a4df4;
+  border: 5px solid #fff;
+  font-size: 0;
+  border-radius: 50%;
+}
+.banner__slider .slick-dots .slick-active button {
+  background-color: #fff;
+  border: 5px solid #6a4df4;
+}
+.banner__slider .slider h1 {
   color: #fff;
   text-align: center;
   font-family: Inter;
@@ -121,7 +145,7 @@ a {
   width: 950px;
   margin: 0 auto;
 }
-#banner__part p {
+.banner__slider .slider p {
   color: #fff;
   text-align: center;
   font-family: Inter;
@@ -399,4 +423,132 @@ a {
 #reviews__part .main__slider .slide .client h5,
 p {
   margin: 0;
+}
+/* ============================================ */
+
+#form__part {
+  padding: 150px 0;
+  background: var(--dark-07, #f3f3f3);
+}
+
+#form__part .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+#form__part .text h2 {
+  color: var(--dark-01, #151515);
+  font-family: Inter;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 470px;
+  margin-bottom: 10px;
+}
+
+#form__part .text p {
+  color: var(--dark-03, #7b7b7b);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  width: 514px;
+  margin-top: 10px;
+}
+
+#form__part .form form {
+  border-radius: 20px;
+  background: #fff;
+  width: 536px;
+  display: flex;
+  flex-direction: column;
+  padding: 61px 43px;
+}
+#form__part .form form h4 {
+  color: var(--dark-01, #151515);
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+  margin-bottom: 10px;
+}
+#form__part .form form label {
+  padding: 20px 0 10px;
+  color: var(--dark-01, #151515);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+}
+#form__part .form form input {
+  color: var(--dark-05, #d0d0d0);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  padding: 19px 23px;
+  border-radius: 10px;
+  border: 1px solid var(--dark-06, #e8e8e8);
+}
+
+#form__part .form form button {
+  margin-top: 30px;
+}
+/* ======================================== */
+
+footer {
+  padding: 150px 0 0;
+}
+footer .f-pera {
+  color: var(--dark-03, #7b7b7b);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  margin-top: 30px;
+  width: 356px;
+}
+footer .main {
+  display: flex;
+  justify-content: flex-end;
+  column-gap: 131px;
+}
+footer .main ul h6 {
+  color: var(--dark-01, #151515);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding-bottom: 40px;
+}
+footer .main ul li a {
+  color: var(--dark-03, #7b7b7b);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+}
+footer .container .copyright {
+  text-align: center;
+  padding: 33px 0;
+  color: var(--dark-05, #d0d0d0);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  border-top: 1px solid #e8e8e8;
+  margin-top: 50px;
 }

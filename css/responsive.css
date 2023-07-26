@@ -1,0 +1,146 @@
+@media (min-width: 360px) and (max-width: 575.98px) {
+  .navbar-brand img {
+    width: 150px;
+  }
+  .navbar {
+    top: 15px;
+  }
+  .banner__slider {
+    padding: 120px 20px;
+  }
+  .banner__slider .slider h1 {
+    font-size: 35px;
+    width: auto;
+  }
+  .banner__slider .slider p {
+    font-size: 14px;
+    line-height: 20px;
+    width: auto;
+    margin: 36px auto 40px;
+  }
+  .btn {
+    padding: 10px 26px;
+  }
+  #our__success {
+    padding: 20px 0 50px;
+  }
+  #our__success .container {
+    border-radius: 10px;
+    padding: 30px 30px;
+  }
+  #our__success .container h6 {
+    text-align: center;
+  }
+  #our__success .container h2 {
+    font-size: 30px;
+    text-align: center;
+  }
+  #our__success .container .row {
+    text-align: center;
+  }
+  #our__success .container h3 {
+    font-size: 40px;
+    margin-top: 20px;
+  }
+  #our__success .container p {
+    font-size: 15px;
+  }
+  .title h2 {
+    font-size: 38px;
+    font-weight: 600;
+  }
+  #service__part .title p {
+    width: auto;
+    margin: 20px auto 0px;
+  }
+  #service__part .main {
+    padding: 20px 18px 0px;
+  }
+  #service__part .main h4 {
+    font-size: 20px;
+    padding: 18px 0 10px;
+  }
+  #service__part {
+    padding-bottom: 50px;
+  }
+  #recent__work {
+    padding: 50px 0;
+  }
+  #recent__work .title p {
+    width: auto;
+    margin: 20px auto 40px;
+  }
+  .title h2 {
+    font-size: 30px;
+    font-weight: 600;
+  }
+  #agency__part .title h2 {
+    width: auto;
+  }
+  #agency__part .title p {
+    width: auto;
+    margin: 20px auto 60px;
+  }
+  #agency__part {
+    padding: 30px 0;
+  }
+  #agency__part .container .main {
+    text-align: center;
+  }
+  #agency__part .container .main p {
+    width: auto;
+  }
+  #agency__part .agencys {
+    row-gap: 45px;
+  }
+  #agency__part .container .image img {
+    margin-top: 50px;
+  }
+  #reviews__part .title p {
+    width: auto;
+    margin: 20px auto 50px;
+  }
+  #reviews__part {
+    padding-bottom: 30px;
+  }
+  #form__part .text h2 {
+    font-size: 30px;
+    width: auto;
+    padding-left: 30px;
+  }
+  #form__part .text p {
+    font-size: 15px;
+    width: auto;
+    padding-bottom: 20px;
+  }
+  #form__part {
+    padding: 30px 0;
+  }
+  #form__part .form form {
+    border-radius: 10px;
+    width: auto;
+    padding: 50px 20px;
+  }
+  footer .f-pera {
+    font-size: 14px;
+    margin-top: 15px;
+    width: auto;
+  }
+  footer .main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  footer .main ul h6 {
+    padding-bottom: 0px;
+    margin-top: 25px;
+  }
+  footer .main ul li a {
+    line-height: 0;
+  }
+  footer .container .copyright {
+    padding: 10px 0;
+    font-size: 12px;
+    margin-top: 20px;
+  }
+}
