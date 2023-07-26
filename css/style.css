@@ -72,8 +72,6 @@ ul {
   color: #fff;
   font-family: Inter;
   font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 26px;
   transition: all linear 0.3s;
 }
@@ -81,7 +79,6 @@ ul {
   color: #4756df;
   font-family: Inter;
   font-size: 18px;
-  font-style: normal;
   transform: scale(1.05);
   line-height: 26px;
 }
@@ -139,9 +136,7 @@ ul {
   text-align: center;
   font-family: Inter;
   font-size: 75px;
-  font-style: normal;
   font-weight: 700;
-  line-height: 120%;
   width: 950px;
   margin: 0 auto;
 }
@@ -150,8 +145,6 @@ ul {
   text-align: center;
   font-family: Inter;
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 26px;
   width: 621px;
   margin: 51px auto 40px;
@@ -173,33 +166,25 @@ ul {
   color: #6a4df4;
   font-family: Inter;
   font-size: 25px;
-  font-style: normal;
   font-weight: 500;
-  line-height: 120%;
 }
 #our__success .container h2 {
   color: #151515;
   font-family: Inter;
   font-size: 35px;
-  font-style: normal;
   font-weight: 600;
-  line-height: normal;
 }
 #our__success .container h3 {
   color: #151515;
   font-family: Inter;
   font-size: 50px;
-  font-style: normal;
   font-weight: 700;
-  line-height: normal;
 }
 #our__success .container p {
   color: #737373;
   font-family: Inter;
   font-size: 20px;
-  font-style: normal;
   font-weight: 500;
-  line-height: 120%;
 }
 /* ===================================== */
 
@@ -224,9 +209,7 @@ ul {
   text-align: center;
   font-family: Inter;
   font-size: 25px;
-  font-style: normal;
   font-weight: 700;
-  line-height: normal;
   padding: 40px 0 20px;
 }
 #service__part .main {
@@ -234,8 +217,6 @@ ul {
   text-align: center;
   font-family: Inter;
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 26px;
 }
 
@@ -272,9 +253,7 @@ ul {
   text-align: center;
   font-family: Inter;
   font-size: 20px;
-  font-style: normal;
   font-weight: 700;
-  line-height: normal;
   padding: 30px 0 10px;
 }
 #recent__work .main .text p {
@@ -282,8 +261,6 @@ ul {
   text-align: center;
   font-family: Inter;
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 26px;
   width: 340px;
   margin: 0 auto;
@@ -311,9 +288,7 @@ ul {
   color: #151515;
   font-family: Inter;
   font-size: 25px;
-  font-style: normal;
   font-weight: 700;
-  line-height: normal;
   padding: 20px 0 10px;
 }
 
@@ -321,8 +296,6 @@ ul {
   color: #737373;
   font-family: Inter;
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 26px;
   width: 344px;
 }
@@ -389,8 +362,6 @@ ul {
   color: #7b7b7b;
   font-family: Inter;
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 26px;
   padding: 20px 0;
   margin: 0;
@@ -408,16 +379,12 @@ ul {
   color: #232323;
   font-family: Inter;
   font-size: 20px;
-  font-style: normal;
   font-weight: 600;
-  line-height: 120%;
 }
 #reviews__part .main__slider .slide .client p {
   color: #7b7b7b;
   font-family: Inter;
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 26px;
 }
 #reviews__part .main__slider .slide .client h5,
@@ -442,9 +409,7 @@ p {
   color: var(--dark-01, #151515);
   font-family: Inter;
   font-size: 45px;
-  font-style: normal;
   font-weight: 700;
-  line-height: normal;
   width: 470px;
   margin-bottom: 10px;
 }
@@ -453,9 +418,7 @@ p {
   color: var(--dark-03, #7b7b7b);
   font-family: Inter;
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 26px; /* 162.5% */
+  line-height: 26px;
   width: 514px;
   margin-top: 10px;
 }
@@ -472,9 +435,7 @@ p {
   color: var(--dark-01, #151515);
   font-family: Inter;
   font-size: 30px;
-  font-style: normal;
   font-weight: 700;
-  line-height: normal;
   text-align: center;
   margin-bottom: 10px;
 }
@@ -483,7 +444,6 @@ p {
   color: var(--dark-01, #151515);
   font-family: Inter;
   font-size: 16px;
-  font-style: normal;
   font-weight: 500;
   line-height: 26px;
 }
@@ -491,9 +451,7 @@ p {
   color: var(--dark-05, #d0d0d0);
   font-family: Inter;
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 26px; /* 162.5% */
+  line-height: 26px;
   padding: 19px 23px;
   border-radius: 10px;
   border: 1px solid var(--dark-06, #e8e8e8);
@@ -511,8 +469,6 @@ footer .f-pera {
   color: var(--dark-03, #7b7b7b);
   font-family: Inter;
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 26px;
   margin-top: 30px;
   width: 356px;
@@ -527,17 +483,13 @@ footer .main ul h6 {
   text-align: center;
   font-family: Inter;
   font-size: 20px;
-  font-style: normal;
   font-weight: 600;
-  line-height: normal;
   padding-bottom: 40px;
 }
 footer .main ul li a {
   color: var(--dark-03, #7b7b7b);
   font-family: Inter;
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 40px;
 }
 footer .container .copyright {
@@ -546,9 +498,7 @@ footer .container .copyright {
   color: var(--dark-05, #d0d0d0);
   font-family: Inter;
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 26px; /* 162.5% */
+  line-height: 26px;
   border-top: 1px solid #e8e8e8;
   margin-top: 50px;
 }
