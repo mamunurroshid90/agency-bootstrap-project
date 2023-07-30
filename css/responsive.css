@@ -5,6 +5,11 @@
     top: 0;
   }
 
+  .navbar .btn {
+    padding: 8px 26px;
+    border-radius: 6px;
+    background: #6a4df4;
+  }
   .navbar-toggler {
     box-shadow: none !important;
   }
@@ -73,6 +78,9 @@
   #service__part .main {
     padding: 20px 15px;
   }
+  #service__part .title h2 {
+    font-size: 30px;
+  }
   #service__part .title p {
     width: auto;
     margin: 20px auto;
@@ -92,6 +100,9 @@
   #recent__work .title p {
     width: auto;
     margin: 20px auto 40px;
+  }
+  #recent__work .title h2 {
+    font-size: 36px;
   }
   /* ========================================== */
 
@@ -200,7 +211,7 @@
   #form__part .form form {
     border-radius: 10px;
     width: auto;
-    padding: 30px 5px;
+    padding: 30px 10px;
   }
 
   #form__part .text h2 {
