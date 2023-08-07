@@ -12,7 +12,7 @@ $(".banner__slider").slick({
 $(".main__slider").slick({
   slidesToShow: 3,
   slidesToScroll: 1,
-  centerMode: true,
+  centerMode: false,
   centerPadding: "0px",
   arrows: true,
   prevArrow: '<i class="fa-solid fa-angle-left left"></i>',
@@ -22,6 +22,20 @@ $(".main__slider").slick({
       breakpoint: 575.98,
       settings: {
         slidesToShow: 1,
+        slidesToScroll: 1,
+      },
+    },
+    {
+      breakpoint: 767.98,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+      },
+    },
+    {
+      breakpoint: 991.98,
+      settings: {
+        slidesToShow: 2,
         slidesToScroll: 1,
       },
     },

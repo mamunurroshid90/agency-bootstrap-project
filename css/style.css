@@ -134,7 +134,7 @@ ul {
   font-family: Inter;
   font-size: 75px;
   font-weight: 700;
-  width: 950px;
+  width: auto;
   margin: 0 auto;
 }
 .banner__slider .slider p {
@@ -391,7 +391,7 @@ p {
   margin: 0;
 }
 
-#reviews__part .main__slider .slick-current {
+#reviews__part .main__slider .slick-center {
   background-color: #f4efef;
 }
 /* ============================================ */
